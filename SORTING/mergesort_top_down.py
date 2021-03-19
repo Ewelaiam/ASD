@@ -32,6 +32,6 @@ def mergesort(A):
     n = len(A)
     B = [0] * n
     copy_arr(A, B)
-    rec_mergesort(A, B, 0, n)
+    mergesort_top_down(A, B, 0, n)
     return A
 
